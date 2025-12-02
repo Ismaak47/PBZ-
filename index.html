@@ -50,7 +50,33 @@
 <link rel="stylesheet" href="https://pbzbank.co.tz/public/assets/css/module-css/09-breadcrumb-section.css" />
 <link rel="stylesheet" href="https://pbzbank.co.tz/public/assets/css/module-css/10-contact.css" />
 <link rel="stylesheet" href="https://pbzbank.co.tz/public/assets/css/style.css" />
-<link rel="stylesheet" href="https://pbzbank.co.tz/public/assets/css/responsive.css" /></head>
+<link rel="stylesheet" href="https://pbzbank.co.tz/public/assets/css/responsive.css" />
+
+<style>
+/* Ensure images preserve aspect ratio and don't get squashed */
+img {
+    max-width: 100%;
+    height: auto !important;
+    display: block;
+    object-fit: contain;
+}
+
+/* Specific overrides for common logo/content image containers */
+.logo img,
+.logo-box img,
+.logo-box-style2 img,
+.bankimg,
+.main-slider-content .img-box img,
+.carousel-multi-item img,
+.features-style4-img__inner img,
+.footer-logo-style1 img {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+</style>
+</head>
 
 <body>
     <div class="xs-sidebar-group info-group info-sidebar">
